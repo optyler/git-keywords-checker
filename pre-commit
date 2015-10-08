@@ -3,9 +3,9 @@
 # https://github.com/borisguery/git-keywords-checker
 
 # Add or remove keywords here
-KEYWORDS_REGEX="var_dump\(|die\(|Zend_Debug::|print_r\(|console\.(debug|info|log|warn)\("
+KEYWORDS_REGEX="System.(out|err).print(ln|r)?|console\.(debug|info|log|warn)"
 # Add extensions to check here
-EXTENSIONS_REGEX="(.php$|.phtml$|.js$)"
+EXTENSIONS_REGEX="(.java$|.html$|.js$)"
 
 ERRORS_BUFFER=""
 TEXT_DEFAULT="\\033[0;39m"
